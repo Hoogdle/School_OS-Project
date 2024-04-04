@@ -58,6 +58,14 @@ def remove_info(database):
             del database[i]
 ################
 
+### 출력 함수 ###
+def output(database):
+    print(f'학번    이름    영어    C-언어  파이썬  총점    평균    학점    등수')
+    
+
+### 탐색 함수 ###
+def search(name,number,databse):
+
 
 
 
