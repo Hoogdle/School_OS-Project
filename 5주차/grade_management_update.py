@@ -109,10 +109,10 @@ def delete_data():
     global size_of_student
     size_of_student -= 1
     index = int(search_data())
-    del name[index] # 학생의 이름 리스트
-    del id[index] # 학번 리스트
-    del total[index] # 총합점수 리스트
-    del mean[index] # 평균 리스트
+    del name[index] 
+    del id[index] 
+    del total[index] 
+    del mean[index] 
     del eng[index]
     del c[index]
     del python[index]
@@ -179,6 +179,7 @@ def counter():
     print('80점 이상의 학생은 ',temp,'명 입니다.')
 
 
+### 실행 결과
 input_data()
 process_grade()
 process_ranking()
