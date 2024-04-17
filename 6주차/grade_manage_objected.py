@@ -3,7 +3,7 @@
 
 
 
-
+# 학생의 성적을 관리하는 객체 Grad_Management
 class Grade_Management:
     def __init__(self,size=5):
         self.size_of_student = size # default로 받는 학생수
@@ -185,8 +185,8 @@ class Grade_Management:
         
 
 
+# 객체 생성 및 구현 확인
 Manager = Grade_Management(5)
-
 Manager.input_data()
 Manager.process_grade()
 Manager.process_ranking()
@@ -198,15 +198,4 @@ Manager.output()
 Manager.counter()
 Manager.delete_data()
 Manager.output()
-# input_data()
-# process_grade()
-# process_ranking()
-# output()
-# delete_data()
-# output()
-# insert_data()
-# output()
-# sorting()
-# output()
-# counter()
 
